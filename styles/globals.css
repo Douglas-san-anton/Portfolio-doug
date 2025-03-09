@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Personalización del Scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* Grosor del scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111111; /* Color del fondo del scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #7f51fd, #5416ff, #a60ffd); /* Gradiente del scrollbar */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #a60ffd, #5416ff, #7f51fd); /* Invertimos el gradiente al hacer hover */
+  }
+  

@@ -19,7 +19,7 @@ const projects = [
         title: "Clone de Netflix",
         description: "Clon de Netflix hecho en react con CSS puro consumiendo api de peliculas. Tecnologias utilizadas: React, CSS, API.",
         mediaType: "video",
-        media: "/videos/netflix-clone.mp4",
+        media: "/images/project-example.png",
         url: "#",
     },
     {
